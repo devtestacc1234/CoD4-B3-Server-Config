@@ -1,0 +1,11 @@
+<configuration plugin="firstkill">
+    <settings name="settings">
+
+        <set name="fkonoff">on</set>
+        <set name="tkonoff">on</set>
+       <set name="hsonoff">on</set>
+        <set name="adminlevel">100</set>
+
+        </settings>
+</configuration>
+

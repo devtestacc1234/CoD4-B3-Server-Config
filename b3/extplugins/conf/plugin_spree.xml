@@ -1,0 +1,22 @@
+<configuration plugin="spree">
+<!--
+| The # character splits the 'start' spree from the 'end' spree.
+-->
+	<settings name="settings">
+<!-- Reset spree stats for all clients at map rotation 0 = no, 1 = yes -->
+		<set name="reset_spree">0</set>
+<!-- The minimum level to be able to use the !spree/@spree command. -->
+		<set name="min_level_spree_cmd">1</set>
+	</settings>
+
+	<settings name="killingspree_messages">
+		<set name="5">%player% is on a killing spree (5 kills in a row) # %player% stopped the spree of %victim%</set>
+		<set name="10">%player% is on fire! (10 kills in a row) # %player% iced %victim%</set>
+		<set name="15">%player% is GODLIKE!!! (15 kills in a row, OMG!) # %player% took %victim% back to the ground again</set>
+		<set name="20">%player% is UNSTOPPABLE!!! (20 kills in a row, unfucking believable) # Finally %player% STOPPED %victim%</set>
+	</settings>
+
+	<settings name="loosingspree_messages">
+		<set name="7">Keep it up %player%, it will come eventually # You're back in business %player%</set>
+	</settings>
+</configuration>

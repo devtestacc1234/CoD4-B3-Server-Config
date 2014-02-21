@@ -1,0 +1,16 @@
+<configuration plugin="dupename">
+	<settings name="settings">
+
+	  <!-- Interval in minutes!  1 to 59 are acceptable values!
+	  If running roundbased games make sure you do not have more than
+    one check scheduled per round! -->
+		<set name="interval">5</set>
+
+	  <!-- Check for duplicate playernames: -->
+		<set name="checkdupes">true</set>
+
+	  <!-- Check for the Unknown Player and UnnamedPlayer: -->
+		<set name="checkunknown">true</set>
+
+	</settings>
+</configuration>

@@ -1,0 +1,9 @@
+<configuration plugin="doubleguid">
+    <settings name="settings">
+<!--plugin actived on/off-->
+        <set name="pluginactived">on</set>
+        <set name="adminlevel">100</set>
+        <set name="immunityminlevel">110</set>
+        </settings>
+</configuration>
+

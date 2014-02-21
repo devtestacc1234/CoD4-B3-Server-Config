@@ -1,0 +1,4 @@
+<set name="bot_prefix">^7(^2N^3R^2U^7)^7:</set>
+
+
+in b3.xml just replace the line you have wit the one up there ^

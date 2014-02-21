@@ -1,0 +1,34 @@
+<configuration plugin="votekick">
+	<settings name="settings">
+		<set name="min_level_vote">0</set>
+		
+		<set name="vote_times">2</set> <!-- number of times it shows an announcement -->		
+		<set name="vote_interval_announcements">30</set> <!-- time in minutes between each announcement -->	
+		<set name="vote_interval_failed">90</set> <!-- time in minutes after a failed vote and re-vote -->	
+        <set name="vote_minvotes">2</set> <!-- minimum necessary votes in order to pass a vote -->		
+	</settings>
+	
+	<settings name="votekick">
+		<set name="min_level_kick">20</set>		
+		<set name="tempban_percent">75</set> <!-- minimum necessary percentage that voted in order to pass the vote -->
+		<set name="tempban_duration">2</set> <!-- tempban duration in minutes -->
+	</settings>	
+	
+	<settings name="votemap">
+		<set name="min_level_map">0</set>		
+		<set name="mapfile">@b3/conf/maplist.txt</set>
+	</settings>
+
+	<settings name="votegametype">
+		<set name="min_level_gametype">10</set>		
+		<set name="gametypefile">@b3/conf/gametypelist.txt</set>
+	</settings>	
+
+	<settings name="votemaprotate">
+		<set name="min_level_maprotate">10</set>		
+	</settings>	
+
+	<settings name="votemapgametype">
+		<set name="min_level_mapgametype">10</set>		
+	</settings>	
+</configuration>
